@@ -1,0 +1,29 @@
+.table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+}
+
+.table thead tr {
+  background-color: lightgreen;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+.table tbody tr {
+  text-align: center;
+  text-transform: capitalize;
+  color: grey;
+  border-bottom: 1px solid black;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: lightgoldenrodyellow;
+}
